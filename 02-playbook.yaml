@@ -1,7 +1,7 @@
 - name: demo on debugs
   hosts: frontend
   tasks:
- - name: hello world
+  - name: hello world
     debug:
       msg: "Hello Ansible"
 
